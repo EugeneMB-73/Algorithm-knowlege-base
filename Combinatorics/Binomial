@@ -2,3 +2,12 @@
 #https://en.wikipedia.org/wiki/Pascal's_triangle
 #https://ru.wikipedia.org/wiki/Биномиальный_коэффициент
 
+def getBinomialCoeffs(row: int):
+    result = [1]
+    zero = [0]
+    for x in range(max(row,0)):
+        result=[l+r for l,r in zip(result+zero, zero+result)]
+    return result
+
+for ii in range(10):
+    print(getBinomialCoeffs(ii))
