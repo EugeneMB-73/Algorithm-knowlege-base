@@ -1,2 +1,2 @@
 # Algorithm-knowlege-base
-Here I will save algoriths that delighted me
+Here I will save algorithms that delighted me
